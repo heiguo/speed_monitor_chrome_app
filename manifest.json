@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "SuperBoost",
+  "description": "Speed up your international web",
+  "version": "0.1",
+  "permissions": ["webRequest", "tabs", "webRequestBlocking", "<all_urls>", "storage"],
+  "background": {
+    "scripts": ["util.js", "background.js"],
+    "persistent": true
+  },
+  // "content_scripts": [{
+  // 	"js": ["util.js"]
+  // }],
+  "browser_action": {
+  	"default_title": "SuperBoost",
+  	"default_popup": "popup.html"
+  }
+}

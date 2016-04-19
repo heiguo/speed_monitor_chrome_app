@@ -1,0 +1,20 @@
+div#hello {
+	height: 300px;
+	width: 500px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: solid 1px #EEE;
+}
+
+th, td {
+	padding: 6px 10px;
+}
+
+td.right {
+	text-align: right;
+}
